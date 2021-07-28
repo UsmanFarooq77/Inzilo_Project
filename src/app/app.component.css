@@ -1,0 +1,371 @@
+.profile_column {
+  background-image: linear-gradient(white, #858585);
+  height: 100vh;
+  padding: 9px;
+}
+.profile {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  width: 100%;
+  height: 65px;
+  border-radius: 5px;
+}
+.welcome {
+  display: inline-block;
+  width: 100px;
+}
+.mike {
+  display: inline-block;
+  width: 100px;
+  font-size: 13px;
+}
+.fa-arrow-circle-left {
+  position: relative;
+  left: 76px;
+  color: black;
+}
+.edit_profile {
+  display: inline-block;
+  width: 100px;
+  color: #b2b2b2;
+}
+img {
+  max-width: 100%;
+  height: 62px;
+  margin-left: 5px;
+}
+.add_to_profile {
+  background-image: linear-gradient(grey, black);
+  text-align: center;
+  color: white;
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: initial;
+  width: 100%;
+  padding: 3px;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+.navigations {
+  list-style-type: none;
+  padding-left: 0px;
+  background-color: grey;
+  color: white;
+  /* padding: 8px 0px 14px 27px; */
+  border-radius: 3px;
+  width: 100%;
+  font-size: 14px;
+  font-family: auto;
+}
+.navigations > li {
+  padding: 8px;
+  border-bottom: 1px solid;
+  border-bottom-color: #797979;
+}
+.navigations > li > i {
+  margin-right: 10px;
+}
+.navigations > li > .fa-play {
+  position: relative;
+  left: 102px;
+  transform: rotate(180deg);
+  color: grey;
+}
+.recently_viewed {
+  text-align: center;
+  width: 100%;
+  font-family: auto;
+  margin-bottom: 11px;
+  margin-top: -6px;
+}
+.recently_viewed_list {
+  background-color: #414141;
+  font-family: auto;
+  border-radius: 3px;
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 14px;
+  width: 100%;
+  color: rgb(199, 197, 197);
+}
+.recently_viewed_list > li {
+  padding: 8px;
+  border-bottom: 1px solid;
+  border-bottom-color: #797979;
+}
+.recently_viewed_list > li > i {
+  font-size: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.rate_review_main_div {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 0px 11px 11px 11px;
+  height: 100vh;
+  background-color: white !important;
+}
+.rate_review {
+  background-color: darkturquoise;
+  padding: 6px;
+  margin-left: -11px;
+  margin-right: -11px;
+  font-family: auto;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+}
+.rate_review_main_div > label {
+  font-weight: bold;
+}
+.visa_row {
+  padding-top: 20px;
+}
+.visa_left_column > input {
+  margin-bottom: 15px;
+}
+.visa_right_column > input {
+  margin-bottom: 15px;
+}
+.visa {
+  position: absolute;
+  font-size: 20px;
+  width: 66px;
+  height: 37px;
+  border-right: 1px solid black;
+  padding: 9px;
+  background-color: #e1e1e1;
+}
+.visa > span {
+  margin-left: 10px;
+  font-size: 16px;
+  position: absolute;
+}
+.vol_tic_cur_mer_left_column > label {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.tra_rat_ame_spe_right_column > label {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.dollar_sign_total_volume {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  width: 27px;
+  height: 37px;
+  padding: 5px;
+  border-right: 1px solid black;
+  background-color: #e1e1e1;
+}
+.dollar_sign_avg_ticket {
+  position: absolute;
+  top: 99px;
+  left: 26px;
+  width: 27px;
+  height: 37px;
+  padding: 5px;
+  border-right: 1px solid black;
+  background-color: #e1e1e1;
+}
+.dollar_sign_current_fees {
+  position: absolute;
+  top: 170px;
+  left: 16px;
+  width: 37px;
+  height: 37px;
+  padding: 5px 5px 5px 14px;
+  border-right: 1px solid black;
+  background-color: #e1e1e1;
+}
+.hash_sign_total_transcation {
+  position: absolute;
+  top: 26px;
+  left: 26px;
+  width: 27px;
+  height: 37px;
+  padding: 5px;
+  border-right: 1px solid black;
+  background-color: #e1e1e1;
+}
+.percentage_current_rate {
+  position: absolute;
+  top: 99px;
+  right: 17px;
+  width: 27px;
+  height: 37px;
+  padding: 5px;
+  border-left: 1px solid black;
+  background-color: #e1e1e1;
+}
+.dollar_sign_current_amex_fees {
+  position: absolute;
+  top: 170px;
+  left: 16px;
+  width: 37px;
+  height: 37px;
+  padding: 5px 5px 5px 14px;
+  border-right: 1px solid black;
+  background-color: #e1e1e1;
+}
+.fa-question-circle {
+  margin-left: 3px;
+  font-size: 15px;
+  color: grey;
+}
+.custom_form_control {
+  background-color: #e1e1e1 !important;
+}
+.select_pricing_main_div {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 0px 11px 11px 11px;
+  height: 100vh;
+  background-color: white !important;
+}
+.select_pricing {
+  background-color: darkturquoise;
+  padding: 6px;
+  margin-left: -11px;
+  margin-right: -11px;
+  font-family: auto;
+  color: white;
+  border-radius: 4px 4px 0px 0px;
+}
+.table_data {
+  overflow-x: auto;
+}
+.table_data2 {
+  overflow-x: auto;
+}
+table,
+th,
+td {
+  border: 1px solid #cdcbcb;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+.heading_name {
+  float: right;
+  margin-right: 7px;
+  font-size: 10px;
+  transform: rotate(270deg);
+  margin-top: 0px;
+}
+.heading_name2 {
+  float: right;
+  margin-right: -8px;
+  font-size: 10px;
+  transform: rotate(90deg);
+  margin-top: 9px;
+}
+.heading_save {
+  float: right;
+  margin-right: 7px;
+  font-size: 10px;
+  transform: rotate(90deg);
+  margin-top: 8px;
+}
+.heading_residuals {
+  float: right;
+  margin-right: 7px;
+  font-size: 10px;
+  transform: rotate(90deg);
+  margin-top: 8px;
+}
+.heading_rate {
+  float: right;
+  font-size: 10px;
+  transform: rotate(270deg);
+}
+.heading_rate1 {
+  float: right;
+  margin-right: -8px;
+  font-size: 10px;
+  transform: rotate(90deg);
+  margin-top: 9px;
+}
+.fa-pencil {
+  position: relative;
+  left: -21px;
+  border: 1px solid #cdcbcb;
+  font-size: 12px;
+  padding: 2px;
+}
+.non_monthly_fees {
+  margin-top: 32px;
+}
+.add {
+  border: 1px solid #c1c1c1;
+  padding: 2px;
+  font-size: 13px;
+  margin-left: 4px;
+  border-radius: 3px;
+}
+.final_proposal {
+  margin-top: 6px;
+  text-align: center;
+  background-color: #bbbbbb;
+  padding: 8px 8px 2px 8px;
+}
+.proposal {
+  margin-top: 6px;
+}
+.proposal_update {
+  border: 1px solid #c1c1c1;
+  padding: 2px;
+  font-size: 13px;
+  margin-left: 4px;
+  border-radius: 3px;
+}
+#new_color tr td:first-child + td {
+  color: darkturquoise;
+}
+#new_color tr:nth-child(9) {
+  background-color: rgb(216 252 252);
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .profile_column {
+    height: auto;
+  }
+  .rate_review_main_div {
+    height: auto;
+  }
+  .select_pricing_main_div {
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .visa_row > .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .visa_row > .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .calculation_row > .col-md-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .calculation_row > .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .profile_column {
+    height: auto;
+  }
+  .rate_review_main_div {
+    height: auto;
+  }
+  .select_pricing_main_div {
+    height: auto;
+  }
+}

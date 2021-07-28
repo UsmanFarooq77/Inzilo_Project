@@ -1,0 +1,9 @@
+<form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    <div>
+        <input type="text" name="userName" placeholder="User Name" ngModel required>
+        <input type="password" name="password" placeholder="Password" ngModel required>
+    </div>
+    <div>
+        <button [disabled]="loginForm.invalid" type="submit">Submit</button>
+    </div>
+</form>
